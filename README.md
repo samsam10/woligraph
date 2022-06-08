@@ -1,4 +1,4 @@
-# Wliggraph
+# Woliggraph
 
 Hi guys, you can download this source code it's free.
 
