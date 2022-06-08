@@ -1,5 +1,5 @@
 # Woligraph
 
-Hi guys, you can download this source code it's free.
+Hi guys
 
-it's a software to check for the work-life balance of an individual. enjoy!!!
+This a software to check for the work-life balance of an individual. enjoy!!!
