@@ -1,0 +1,248 @@
+h1,
+
+h1,h2,h3,h4,h5,p,a,button{
+ 
+  font-family: 'Courgette', cursive;
+
+  color:#fff;
+}
+
+h3,
+h2,
+p,
+a {
+  color: white;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  text-align: center;
+}
+
+.App-header {
+
+  height: 20px;
+  width: auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.intro-copy, .dosha-info {
+  background: #06c8d9;
+  margin: 20px;
+  padding: 20px 50px;
+  border-radius: 24px;
+  box-shadow: 0px 0px 37px -2px rgb(223, 125, 125);
+}
+
+.intro-copy p {
+  font-size: 1rem;
+  text-align: left;
+}
+/* From uiverse.io */
+.c-button {
+  color: #000;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 15px 40px;
+  margin-top: 25px;
+  text-decoration: none;
+  padding: 0.9em 2.6em;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+ }
+ 
+ .c-button--gooey {
+  color: #06c8d9;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 5px solid #06c8d9;
+  border-radius: 0;
+  position: relative;
+  transition: all 700ms ease;
+ }
+ 
+ .c-button--gooey .c-button__blobs{
+  height: 100%;
+  filter: url(#goo);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -3px;
+  right: -1px;
+  z-index: -1;
+ }
+ 
+ .c-button--gooey .c-button__blobs div {
+  background-color: #06c8d9;
+  width: 34%;
+  height: 100%;
+  border-radius: 100%;
+  
+  position: absolute;
+  transform: scale(1.4) translateY(125%) translateZ(0);
+  transition: all 700ms ease;
+ }
+ 
+ .c-button--gooey .c-button__blobs div:nth-child(1) {
+  left: -5%;
+ }
+ 
+ .c-button--gooey .c-button__blobs div:nth-child(2) {
+  left: 30%;
+  transition-delay: 60ms;
+ }
+ 
+ .c-button--gooey .c-button__blobs div:nth-child(3) {
+  left: 66%;
+  transition-delay: 25ms;
+ }
+ 
+ .c-button--gooey:hover {
+  color: #fff;
+ }
+ 
+ .c-button--gooey:hover .c-button__blobs div {
+  transform: scale(1.4) translateY(0) translateZ(0);
+ }
+
+
+.Question-1 {
+  padding-bottom: 20px;
+}
+
+.Question-btn {
+  background: white;
+  padding: 15px 40px;
+  margin: 20px;
+  border-radius: 24px;
+  text-align: center;
+  color: #383d6e;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  width: 90%;
+  border: 0;
+}
+
+.Question-btn:active,
+.Question-btn-selected {
+  background: #06c8d9;
+  background: linear-gradient(
+    198deg,
+    #0d575e
+    rgb(101, 117, 124) 91%
+  );
+  color: white;
+}
+
+.next-btn, .dosha-playAgain {
+  background: #06c8d9;
+  background: linear-gradient(
+    198deg,
+    rgb(255, 255, 255) 19%,
+    #faffff
+  );
+  padding: 10px 30px;
+  border: 4px solid #06c8d9;
+  margin: 20px;
+  border-radius: 2.4px;
+  border-color: #06c8d9;
+  text-align: center;
+  color: #06c8d9;
+  font-size: 1.3rem;
+  font-weight: bolder;
+} 
+
+.dosha-info p {
+  text-align: left;
+}
+
+.dosha-title {
+font-size: 3rem;
+margin-top: 0;
+margin-bottom: 20px;
+  background: -webkit-linear-gradient(
+    198deg,
+    rgb(213, 216, 223) 19%,
+    rgba(108, 207, 246, 1) 91%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dosha-info h2 {
+  margin-top: 30px;
+}
+
+
+.dosha-info ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  color: white;
+}
+
+.dosha-info li {
+  padding-bottom: 13px;
+}
+.dosha-btns {
+  text-align: center;
+}
+
+.dosha-btn {
+  background: rgb(214, 91, 166);
+  background: linear-gradient(
+    198deg,
+    rgba(214, 91, 166, 1) 19%,
+    rgba(195, 111, 220, 1) 91%
+  );
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 24px;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  border: 0;
+}
+
+
+.playAgain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* border: 3px solid green; */
+}
+
+
+
+@media (min-width: 992px) {
+  .container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Question-btn {
+    width: 100%;
+  }
+}
